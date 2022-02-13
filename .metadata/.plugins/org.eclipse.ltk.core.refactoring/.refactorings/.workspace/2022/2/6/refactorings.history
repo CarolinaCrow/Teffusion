@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;AppTeffusion&apos; to &apos;AppTeffusion-Parent&apos;" description="Rename resource &apos;AppTeffusion&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/AppTeffusion" name="AppTeffusion-Parent" stamp="1644690173402" updateReferences="true"/>&#x0A;<refactoring comment="Delete resource &apos;AppTeffusion-Parent/jbossredeploy.bat&apos;" deleteContents="false" description="Delete resource &apos;AppTeffusion-Parent/jbossredeploy.bat&apos;" element1="/AppTeffusion-Parent/jbossredeploy.bat" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1644750748066"/>
+</session>

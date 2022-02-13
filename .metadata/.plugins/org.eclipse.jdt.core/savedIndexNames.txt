@@ -1,0 +1,2 @@
+INDEX VERSION 1.131+C:\CAROLINA_DATA\Workspace_eclipse\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index

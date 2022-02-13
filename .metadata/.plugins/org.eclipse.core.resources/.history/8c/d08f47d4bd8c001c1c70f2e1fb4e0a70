@@ -1,0 +1,9 @@
+cd ..\standalone\deployments
+del AppCat-EAR-1.0.0.ear
+del AppCat-EAR-1.0.0.ear.deployed
+cd C:\Users\akatz\Documents\EQL\Projets\AI110\AppCat
+cmd /c mvn install
+cd AppCat-EAR\target
+copy AppCat-EAR-1.0.0.ear C:\servers\jboss-eap-7.2\standalone\deployments
+cd C:\servers\jboss-eap-7.2\bin
+cmd /c standalone.bat
