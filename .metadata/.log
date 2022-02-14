@@ -213,3 +213,219 @@ org.apache.maven.project.ProjectBuildingException: Some problems were encountere
 
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2022-02-13 12:54:46.427
 !MESSAGE The POM for fr.eql.ai110:AppTeffusion-Web:war:1.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-02-13 22:25:51.391
+!MESSAGE Could not download sources for fr.eql.ai110:AppTeffusion-Entity:1.0
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact fr.eql.ai110:AppTeffusion-Entity:jar:sources:1.0
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:804)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:114)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:772)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:749)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:330)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:304)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:269)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:233)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing fr.eql.ai110:AppTeffusion-Entity:jar:sources:1.0
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2022-02-13 22:25:51.392
+!MESSAGE Could not resolve artifact fr.eql.ai110:AppTeffusion-Entity:jar:sources:1.0
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2022-02-13 22:25:51.392
+!MESSAGE Missing fr.eql.ai110:AppTeffusion-Entity:jar:sources:1.0
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-02-13 22:25:51.599
+!MESSAGE Could not download sources for fr.eql.ai110:AppTeffusion-IBUSINESS:1.0
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact fr.eql.ai110:AppTeffusion-IBUSINESS:jar:sources:1.0
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:804)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:114)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:772)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:749)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:330)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:304)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:269)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:233)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing fr.eql.ai110:AppTeffusion-IBUSINESS:jar:sources:1.0
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2022-02-13 22:25:51.599
+!MESSAGE Could not resolve artifact fr.eql.ai110:AppTeffusion-IBUSINESS:jar:sources:1.0
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2022-02-13 22:25:51.599
+!MESSAGE Missing fr.eql.ai110:AppTeffusion-IBUSINESS:jar:sources:1.0
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-02-13 22:25:52.509
+!MESSAGE Could not download javadoc for fr.eql.ai110:AppTeffusion-Entity:1.0
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact fr.eql.ai110:AppTeffusion-Entity:jar:javadoc:1.0
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:804)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:114)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:772)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:749)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:330)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:316)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:269)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:233)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing fr.eql.ai110:AppTeffusion-Entity:jar:javadoc:1.0
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2022-02-13 22:25:52.509
+!MESSAGE Could not resolve artifact fr.eql.ai110:AppTeffusion-Entity:jar:javadoc:1.0
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2022-02-13 22:25:52.509
+!MESSAGE Missing fr.eql.ai110:AppTeffusion-Entity:jar:javadoc:1.0
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-02-13 22:25:52.713
+!MESSAGE Could not download javadoc for fr.eql.ai110:AppTeffusion-IBUSINESS:1.0
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact fr.eql.ai110:AppTeffusion-IBUSINESS:jar:javadoc:1.0
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:804)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:114)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:772)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:749)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:330)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:316)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:269)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:233)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing fr.eql.ai110:AppTeffusion-IBUSINESS:jar:javadoc:1.0
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2022-02-13 22:25:52.713
+!MESSAGE Could not resolve artifact fr.eql.ai110:AppTeffusion-IBUSINESS:jar:javadoc:1.0
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2022-02-13 22:25:52.713
+!MESSAGE Missing fr.eql.ai110:AppTeffusion-IBUSINESS:jar:javadoc:1.0
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-02-13 22:27:16.936
+!MESSAGE Could not download sources for fr.eql.ai110:AppTeffusion-IDAO:1.0
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact fr.eql.ai110:AppTeffusion-IDAO:jar:sources:1.0
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:804)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:114)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:772)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:749)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:330)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:304)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:269)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:233)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing fr.eql.ai110:AppTeffusion-IDAO:jar:sources:1.0
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2022-02-13 22:27:16.936
+!MESSAGE Could not resolve artifact fr.eql.ai110:AppTeffusion-IDAO:jar:sources:1.0
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2022-02-13 22:27:16.936
+!MESSAGE Missing fr.eql.ai110:AppTeffusion-IDAO:jar:sources:1.0
+
+!ENTRY org.eclipse.jst.j2ee.ejb 4 0 2022-02-13 22:27:17.082
+!MESSAGE IWAE0006E Archive is not a valid EJB JAR File because the deployment descriptor can not be found (case sensitive): META-INF/ejb-jar.xml
+
+!STACK 0
+org.eclipse.jst.j2ee.commonarchivecore.internal.exception.OpenFailureException: IWAE0006E Archive is not a valid EJB JAR File because the deployment descriptor can not be found (case sensitive): META-INF/ejb-jar.xml
+
+	at org.eclipse.jst.j2ee.commonarchivecore.internal.impl.CommonarchiveFactoryImpl.openSpecificArchive(CommonarchiveFactoryImpl.java:821)
+	at org.eclipse.jst.j2ee.commonarchivecore.internal.impl.CommonarchiveFactoryImpl.openSpecificArchive(CommonarchiveFactoryImpl.java:832)
+	at org.eclipse.jst.j2ee.commonarchivecore.internal.impl.CommonarchiveFactoryImpl.openEJBJarFile(CommonarchiveFactoryImpl.java:706)
+	at org.eclipse.jst.j2ee.ejb.componentcore.util.EJBArtifactEdit.asArchive(EJBArtifactEdit.java:579)
+	at org.eclipse.jst.j2ee.componentcore.EnterpriseArtifactEdit.asArchive(EnterpriseArtifactEdit.java:277)
+	at org.eclipse.jst.j2ee.internal.ejb.workbench.validation.EJBHelper.loadEjbModel(EJBHelper.java:522)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.wst.validation.internal.operations.WorkbenchContext.loadModel(WorkbenchContext.java:558)
+	at org.eclipse.jst.j2ee.internal.ejb.workbench.validation.EJBHelper.loadModel(EJBHelper.java:279)
+	at org.eclipse.wst.validation.internal.operations.WorkbenchContext.loadModel(WorkbenchContext.java:542)
+	at org.eclipse.jst.j2ee.model.internal.validation.EJBValidationContext.loadModel(EJBValidationContext.java:115)
+	at org.eclipse.jst.j2ee.model.internal.validation.EJBValidator.fullValidate(EJBValidator.java:384)
+	at org.eclipse.jst.j2ee.model.internal.validation.EJBValidator.commonValidate(EJBValidator.java:82)
+	at org.eclipse.jst.j2ee.model.internal.validation.EJBValidator.validateInJob(EJBValidator.java:108)
+	at org.eclipse.jst.j2ee.internal.ejb.workbench.validation.UIEjbValidator.validateInJob(UIEjbValidator.java:53)
+	at org.eclipse.wst.validation.internal.operations.ValidatorJob.run(ValidatorJob.java:78)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-02-13 22:27:17.092
+!MESSAGE Could not download javadoc for fr.eql.ai110:AppTeffusion-IDAO:1.0
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact fr.eql.ai110:AppTeffusion-IDAO:jar:javadoc:1.0
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:804)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:114)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:772)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:749)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:330)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:316)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:269)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:233)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing fr.eql.ai110:AppTeffusion-IDAO:jar:javadoc:1.0
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2022-02-13 22:27:17.093
+!MESSAGE Could not resolve artifact fr.eql.ai110:AppTeffusion-IDAO:jar:javadoc:1.0
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2022-02-13 22:27:17.093
+!MESSAGE Missing fr.eql.ai110:AppTeffusion-IDAO:jar:javadoc:1.0
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-02-13 22:29:12.880
+!MESSAGE Could not download sources for fr.eql.ai110:AppTeffusion-DAO:1.0
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact fr.eql.ai110:AppTeffusion-DAO:jar:sources:1.0
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:804)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:114)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:772)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:749)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:330)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:304)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:269)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:233)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing fr.eql.ai110:AppTeffusion-DAO:jar:sources:1.0
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2022-02-13 22:29:12.880
+!MESSAGE Could not resolve artifact fr.eql.ai110:AppTeffusion-DAO:jar:sources:1.0
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2022-02-13 22:29:12.880
+!MESSAGE Missing fr.eql.ai110:AppTeffusion-DAO:jar:sources:1.0
