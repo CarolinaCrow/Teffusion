@@ -42,7 +42,7 @@
 		</dependency>
 		<dependency>
 			<groupId>${project.groupId}</groupId>
-			<artifactId>AppTeffusion-Web</artifactId>
+			<artifactId>AppTeffusion-WEB</artifactId>
 			<version>${project.version}</version>
 			<type>war</type>
 		</dependency>

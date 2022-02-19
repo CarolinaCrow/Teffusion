@@ -7,8 +7,7 @@
 		<artifactId>AppTeffusion-Parent</artifactId>
 		<version>1.0</version>
 	</parent>
-	<artifactId>AppTeffusion-BUSINESS</artifactId>
-	<packaging>ejb</packaging>
+	<artifactId>AppTeffusion-IBUSINESS</artifactId>
 	<dependencies>
 		<dependency>
 			<groupId>javax</groupId>
@@ -17,16 +16,6 @@
 		<dependency>
 			<groupId>${project.groupId}</groupId>
 			<artifactId>AppTeffusion-Entity</artifactId>
-			<version>${project.version}</version>
-		</dependency>
-		<dependency>
-			<groupId>${project.groupId}</groupId>
-			<artifactId>AppTeffusion-IDAO</artifactId>
-			<version>${project.version}</version>
-		</dependency>
-		<dependency>
-			<groupId>${project.groupId}</groupId>
-			<artifactId>AppTeffusion-IBUSINESS</artifactId>
 			<version>${project.version}</version>
 		</dependency>
 	</dependencies>
