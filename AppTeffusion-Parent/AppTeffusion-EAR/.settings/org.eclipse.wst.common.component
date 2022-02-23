@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
-            
+                
+    
     
     <wb-module deploy-name="AppTeffusion-EAR-1.0">
-                        
+                                
+        
         
         <wb-resource deploy-path="/" source-path="/target/m2e-wtp/ear-resources"/>
-                        
+                                
+        
         
         <wb-resource deploy-path="/" source-path="/src/main/application" tag="defaultRootSource"/>
         <dependent-module archiveName="AppTeffusion-Entity-1.0.jar" deploy-path="/lib" handle="module:/resource/AppTeffusion-Entity/AppTeffusion-Entity">
@@ -53,10 +56,10 @@
         <dependent-module archiveName="javax.persistence-api-2.2.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/javax/persistence/javax.persistence-api/2.2/javax.persistence-api-2.2.jar">
             <dependency-type>uses</dependency-type>
         </dependent-module>
-        <dependent-module archiveName="AppTeffusion-IBUSINESS-1.0.jar" deploy-path="/lib" handle="module:/resource/AppTeffusion-BUSINESS/AppTeffusion-BUSINESS">
+        <dependent-module archiveName="AppTeffusion-IBUSINESS-1.0.jar" deploy-path="/lib" handle="module:/resource/AppTeffusion-IBUSINESS/AppTeffusion-IBUSINESS">
             <dependency-type>uses</dependency-type>
         </dependent-module>
-        <dependent-module archiveName="AppTeffusion-BUSINESS-1.0.jar" deploy-path="/" handle="module:/resource/AppTeffusion-IBUSINESS/AppTeffusion-IBUSINESS">
+        <dependent-module archiveName="AppTeffusion-BUSINESS-1.0.jar" deploy-path="/" handle="module:/resource/AppTeffusion-BUSINESS/AppTeffusion-BUSINESS">
             <dependency-type>uses</dependency-type>
         </dependent-module>
         <dependent-module archiveName="AppTeffusion-WEB-1.0.war" deploy-path="/" handle="module:/resource/AppTeffusion-WEB/AppTeffusion-WEB">
@@ -68,9 +71,11 @@
         <dependent-module archiveName="xml-apis-1.0.b2.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.jar">
             <dependency-type>uses</dependency-type>
         </dependent-module>
-                    
+                            
+    
     
     </wb-module>
-        
+            
+
 
 </project-modules>

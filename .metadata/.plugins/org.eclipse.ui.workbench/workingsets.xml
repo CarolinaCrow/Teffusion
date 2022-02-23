@@ -2,6 +2,15 @@
 <workingSetManager>
 <workingSet editPageId="org.eclipse.jdt.internal.ui.DynamicSourcesWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1644656455376_0" label="Java Main Sources" name="Java Main Sources"/>
 <workingSet editPageId="org.eclipse.jdt.internal.ui.DynamicSourcesWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1644656455400_1" label="Java Test Sources" name="Java Test Sources"/>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1645654272223_5" label="AppTeffusion-Parent" name="AppTeffusion-Parent">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/AppTeffusion-BUSINESS" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/AppTeffusion-DAO" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/AppTeffusion-EAR" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/AppTeffusion-Entity" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/AppTeffusion-IBUSINESS" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/AppTeffusion-IDAO" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/AppTeffusion-WEB" type="4"/>
+</workingSet>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1644656460653_2" label="Window Working Set" name="Aggregate for window 1644656460653"/>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1644750690700_3" label="Window Working Set" name="Aggregate for window 1644750690700"/>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1645363751554_4" label="Window Working Set" name="Aggregate for window 1645363751554"/>
