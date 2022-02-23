@@ -49,7 +49,7 @@ public class Client implements Serializable {
 	private Integer codepostal;	
 
 	@OneToMany(mappedBy = "client", cascade = CascadeType.PERSIST, fetch = FetchType.LAZY)
-	private Set<Produit> produits;
+	private Set<Product> produits;
 	
 	public Client() {
 		
@@ -57,7 +57,7 @@ public class Client implements Serializable {
 	
 	public Client(Integer idClient, String nom, String prenom, String mail, String login, String mdp,
 			Double tel, String adresse, Integer numRue, String nomRue, String ville, Integer codepostal, 
-			Set<Produit>produits) {
+			Set<Product>produits) {
 		super();
 		this.idClient = idClient;
 		this.nom = nom;
@@ -170,11 +170,11 @@ public class Client implements Serializable {
 		this.codepostal = codepostal;
 	}
 
-	public Set<Produit> getProduits() {
+	public Set<Product> getProduits() {
 		return produits;
 	}
 
-	public void setProduits(Set<Produit> produits) {
+	public void setProduits(Set<Product> produits) {
 		this.produits = produits;
 	}
 	

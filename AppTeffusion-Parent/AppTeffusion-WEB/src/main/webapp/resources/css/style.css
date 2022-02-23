@@ -1,0 +1,40 @@
+.blockPage {
+	opacity: 0 !important;
+}
+
+.teffusion-padding-1rem {
+	padding: 1rem !important;
+}
+
+.teffusion-width-100 {
+	width: 100% !important;
+}
+
+.teffusion-top-1rem {
+	position: relative !important;
+	top: 1rem !important;
+}
+
+.teffusion-header {
+	min-height: 10rem !important;
+	background-color: #575775 !important;
+}
+
+.teffusion-content {
+	min-height: calc(100vh - 20rem) !important;
+}
+
+.teffusion-footer {
+	min-height: 10rem !important;
+	background-color: #575775 !important;
+}
+
+.teffusion-flex-justify-content {
+	display: flex !important;
+	justify-content: center !important;
+}
+
+.teffusion-flex-align-items {
+	display: flex !important;
+	align-items: center !important
+}

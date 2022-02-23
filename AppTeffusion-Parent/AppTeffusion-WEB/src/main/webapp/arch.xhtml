@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:p="http://primefaces.org/ui" 
+	xmlns:b="http://bootsfaces.net/ui">
+
+<h:head>
+	<ui:insert name="head"></ui:insert>
+	<h:outputStylesheet library="css" name="style.css" />
+</h:head>
+
+<h:body>
+<!-- attribut class pour les classes css d'un élément html  -->
+	<div class="cat-header cat-flex-justify-content cat-flex-align-items">
+		<h1>TEFFUSION</h1>
+	</div>
+
+	<b:navBar brand="#{mbLogin.owner.name} #{mbLogin.owner.surname}">
+		<b:navbarLinks>
+			<b:navLink value="Accueil" icon-awesome="home" href="index.xhtml" />
+			<b:navLink value="Mon espace" icon-awesome="user" href="owner.xhtml" 
+				rendered="#{mbLogin.isConnected()}" />
+			<b:navLink value="Jouets" icon-awesome="star" href="toys.xhtml" 
+				rendered="#{mbLogin.owner.isAdmin}" />
+			<b:navLink value="Connexion" icon-awesome="key" href="login.xhtml" />
+		</b:navbarLinks>
+	</b:navBar>
+
+	<b:container>
+		<b:row>
+		<!-- attribut style-class pour les classes css d'un élément bootsfaces  -->
+			<b:column style-class="cat-content">
+				<ui:insert name="content"></ui:insert>
+			</b:column>
+		</b:row>
+	</b:container>
+
+	<div
+		class="cat-footer cat-flex-justify-content cat-flex-align-items">
+		<h2>TEFFUSION - 2022</h2>
+	</div>
+</h:body>
+
+</html>
